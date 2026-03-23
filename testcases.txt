@@ -1,0 +1,8 @@
+Test Case 1: Login Test
+Step 1: Open website
+Step 2: Enter username/password
+Expected: Login successful
+
+Test Case 2: Search Test
+Step 1: Search product
+Expected: Results displayed
