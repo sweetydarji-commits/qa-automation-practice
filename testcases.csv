@@ -1,20 +1,21 @@
-TC01,Search,Search Product,pass
-TC02,Product Selection,Open Product Page,pass
-TC03,Product Selection,Select Size Validation,pass
-TC04,Bag,Add Product to Bag,pass
-TC05,Bag,View Bag,pass
-TC06,Bag,Increase Quantity,pass
-TC07,Bag,Decrease Quantity,pass
-TC08,Bag,Remove Product,pass
-TC09,Bag,Cart Total Calculation,pass
-TC10,Checkout,Login Required for Checkout,pass
-TC11,Checkout,Proceed to Checkout,pass
-TC12,Checkout,Checkout Button Validation,pass
-TC13,Bag,Maximum Quantity Limit,pass
-TC14,Bag,Bag Persistence After Refresh,pass
-TC15,Product Selection,Unavailable Size Selection,pass
-TC16,Product Selection,Available Size Selection,pass
-TC17,Product Selection,Image Zoom Functionality,pass
-TC18,Product Selection,Add to Bag बिना Size,pass
-TC19,Bag,Empty Bag Behavior,pass
-TC20,Bag,Duplicate Product Handling,pass
+Test Case ID,Module,Test Name,Status
+TC01,Search,Verify users can search a product,Pass
+TC02,Product Selection,Verify user can open product details page,Pass
+TC03,Product Selection,Verify user must select size before adding to bag,Pass
+TC04,Bag,Verify user can add product to bag,Pass
+TC05,Bag,Verify user can view bag,Pass
+TC06,Bag,Verify user can increase product quantity,Pass
+TC07,Bag,Verify user can decrease quantity,Pass
+TC08,Bag,Verify user can remove product from bag,Pass
+TC09,Bag,Verify cart total price calculation,Pass
+TC10,Checkout,Verify checkout requires login,Pass
+TC11,Checkout,Verify user can proceed to checkout,Pass
+TC12,Checkout,Verify checkout button is visible and clickable,Pass
+TC13,Bag,Verify maximum quantity limit,Pass
+TC14,Bag,Verify bag retained products after page refresh,Pass
+TC15,Product Selection,Verify user cannot select unavailable sizes,Pass
+TC16,Product Selection,Verify available size can be selected,Pass
+TC17,Product Selection,Verify product image zoom functionality,Pass
+TC18,Product Selection,Verify Add to Bag button without size selection,Pass
+TC19,Bag,Verify system behavior when bag is empty,Pass
+TC20,Bag,Verify duplicate product handling in bag,Pass
