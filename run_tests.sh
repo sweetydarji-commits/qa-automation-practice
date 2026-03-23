@@ -1,12 +1,25 @@
-echo "Starting Test Execution..."
+echo "===== TEST EXECUTION STARTED ====="
 
-echo "Reading Test Cases..."
-cat testcases.txt
+PASS_COUNT=0
+FAIL_COUNT=0
 
-echo "Running Login Test..."
-echo "Login Test Passed"
+while IFS=, read -r TC_ID MODULE TEST_NAME STATUS
+do
+  echo "---------------------------------"
+  echo "Running $TC_ID | $MODULE | $TEST_NAME"
 
-echo "Running Search Test..."
-echo "Search Test Passed"
+  if [ "$STATUS" != "pass" ]; then
+    echo "$TC_ID FAILED ❌"
+    FAIL_COUNT=$((FAIL_COUNT+1))
+    exit 1
+  else
+    echo "$TC_ID PASSED ✅"
+    PASS_COUNT=$((PASS_COUNT+1))
+  fi
 
-echo "All Tests Completed Successfully"
+done < testcases.csv
+
+echo "---------------------------------"
+echo "Total Passed: $PASS_COUNT"
+echo "Total Failed: $FAIL_COUNT"
+echo "===== ALL TESTS PASSED ====="
