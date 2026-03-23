@@ -1,0 +1,20 @@
+TC01,Search,Search Product,pass
+TC02,Product Selection,Open Product Page,pass
+TC03,Product Selection,Select Size Validation,pass
+TC04,Bag,Add Product to Bag,pass
+TC05,Bag,View Bag,pass
+TC06,Bag,Increase Quantity,pass
+TC07,Bag,Decrease Quantity,pass
+TC08,Bag,Remove Product,pass
+TC09,Bag,Cart Total Calculation,pass
+TC10,Checkout,Login Required for Checkout,pass
+TC11,Checkout,Proceed to Checkout,pass
+TC12,Checkout,Checkout Button Validation,pass
+TC13,Bag,Maximum Quantity Limit,pass
+TC14,Bag,Bag Persistence After Refresh,pass
+TC15,Product Selection,Unavailable Size Selection,pass
+TC16,Product Selection,Available Size Selection,pass
+TC17,Product Selection,Image Zoom Functionality,pass
+TC18,Product Selection,Add to Bag बिना Size,pass
+TC19,Bag,Empty Bag Behavior,pass
+TC20,Bag,Duplicate Product Handling,pass
